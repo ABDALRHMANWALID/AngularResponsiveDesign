@@ -1,0 +1,51 @@
+header {
+  width: calc(100% - 96px);
+  background-color: #ddd;
+  padding: 16px 48px;
+  margin-bottom: 48px;
+
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 32px;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+          color: #000;
+          font-size: 24px;
+          font-weight: 700;
+          cursor: pointer;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
