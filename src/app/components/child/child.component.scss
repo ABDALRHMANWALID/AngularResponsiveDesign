@@ -1,0 +1,33 @@
+.child {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: 40px;
+    color: #ddd;
+  }
+
+  &.XSmall {
+    background-color: blueviolet;
+  }
+
+  &.Small {
+    background-color: brown;
+  }
+
+  &.Medium {
+    background-color: burlywood;
+  }
+
+  &.Large {
+    background-color: cadetblue;
+  }
+
+  &.XLarge {
+    background-color: coral;
+  }
+}
